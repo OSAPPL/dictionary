@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+*{
+    padding: 1rem;
+}
+
+.header{
+    font-family: 'sono', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-field{
+    width: 25rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    border-color: red;
+    font-family: 'sono', sans-serif;
+    font-size: 1.75rem;
+}
+
+
+.input-field:hover{
+    width: 30rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    border-color: red;
+    font-family: 'sono', sans-serif;
+    font-size: 1.75rem;
+}
+
+.Button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+}
+
+.resault-area{
+    border: 0.5rem solid black;
+    border-radius: 1rem;
+    padding: auto;
+    font-family: 'sono' , sans-serif;
+}
+
